@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "771623570867",
+    "firebase_url": "https://maqsadapp-e6bf1-default-rtdb.firebaseio.com",
+    "project_id": "maqsadapp-e6bf1",
+    "storage_bucket": "maqsadapp-e6bf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771623570867:android:3166dbf6576f9e45124fc6",
+        "android_client_info": {
+          "package_name": "uz.peachdev.gt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771623570867-9h61lrs29b8r07ifp03udhi6c50sl2a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.peachdev.gt",
+            "certificate_hash": "bcb207ed665e1d0db98b5d293a900bf23be5f85a"
+          }
+        },
+        {
+          "client_id": "771623570867-lc7n942943ch6hdkpa4aq7tsash8ncia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjA4G19Mw148NWUWEp4TXYhecCBbZmTIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771623570867-lc7n942943ch6hdkpa4aq7tsash8ncia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottiee"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ismi"
+        app:layout_constraintEnd_toEndOf="@+id/ismi"
+        app:layout_constraintStart_toStartOf="@+id/ismi"
+        app:layout_constraintTop_toTopOf="@+id/ismi"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/usernameback" />
+
+
+    <TextView
+        android:id="@+id/ismi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/latobold"
+
+        android:text="TextView"
+
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/latobold"
+        android:text="O'zingiz uchun qulay kirish \n yo'lini tanlang:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/ismi"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/ismi"
+        app:layout_constraintTop_toTopOf="@+id/ismi" />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googlesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/login_button"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="@+id/login_button"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/latobold"
+        android:text=" Facebook orqali kirish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.303" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
